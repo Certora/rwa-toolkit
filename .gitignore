@@ -6,3 +6,6 @@ cache/
 node_modules/
 .vscode/
 remappings.txt
+
+# Certora runs folders
+.certora_internal/
