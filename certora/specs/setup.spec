@@ -1,3 +1,6 @@
+/**
+ * # Setup for RwaUrn2 using linking
+ */
 using AAVE as _AAVE;
 
 
@@ -23,7 +26,6 @@ rule freeInvertsLock(uint256 wad) {
     storage initial = lastStorage;
     env e;
 
-    // require e.msg.sender != currentContract;
     uint256 senderAllowance = _AAVE.allowance(e.msg.sender, currentContract);
     uint256 thisAllowance = _AAVE.allowance(currentContract, gemJoin());
     
@@ -40,4 +42,3 @@ rule freeInvertsLock(uint256 wad) {
     storage final = lastStorage;
     assert initial == final;
 }
-
