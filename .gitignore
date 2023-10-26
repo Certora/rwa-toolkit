@@ -9,3 +9,7 @@ remappings.txt
 
 # Certora runs folders
 .certora_internal/
+
+# vim
+.*.swp
+.*.swo
