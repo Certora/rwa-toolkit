@@ -1,4 +1,4 @@
-// Verification of Transferer contract, relies on linking
+// Verification of Exchange contract, relies on linking
 methods {
     function balanceA() external returns (uint256) envfree;
     function balanceB() external returns (uint256) envfree;

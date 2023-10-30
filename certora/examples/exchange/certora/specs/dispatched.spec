@@ -1,4 +1,4 @@
-// Verification of Transferer contract using dispatcher
+// Verification of Exchange contract using dispatcher
 methods {
     function balanceA() external returns (uint256) envfree;
     function balanceB() external returns (uint256) envfree;

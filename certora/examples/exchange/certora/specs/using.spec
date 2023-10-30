@@ -1,4 +1,4 @@
-// Verification of Transferer contract
+// Verification of Exchange contract
 using ERC20DummyA as _ERC20DummyA;
 using ERC20DummyB as _ERC20DummyB;
 
